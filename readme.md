@@ -1,4 +1,4 @@
-### 🧠 AI Feedback Rating App
+# 🧠 AI Feedback Rating App
 A full-stack application that allows users to submit feedback and receive an AI-generated rating out of 5 using Gemini 2.0 Flash (Google AI).
 
 ![Alt Text](https://github.com/yesiamkriti/ai-feedback/blob/main/client/public/image.png)
