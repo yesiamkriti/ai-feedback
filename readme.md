@@ -52,47 +52,46 @@ Create a .env file:
 
 ```bash
 GEMINI_API_KEY=your_google_makersuite_api_key_here
-```
 
-Start the server:
+#Start the server:
 
-bash
-Copy
-Edit
 node index.js
 
 # or
 
-npx nodemon index.js 3. Setup Frontend (React)
-bash
-Copy
-Edit
+# npx nodemon index.js 3. Setup Frontend (React)
+
 cd client
 npm install
 npm start
+```
+
 The frontend runs on http://localhost:3000
 
-🧪 Example Prompt Sent to Gemini
+## 🧪 Example Prompt Sent to Gemini
+
 “Rate the following user feedback from 1 (very bad) to 5 (excellent). Only return a number.
 
 "This app is slow and confusing."”
 
-🔐 Gemini API (Free Tier)
+## 🔐 Gemini API (Free Tier)
+
 Get your free API key: https://makersuite.google.com/app/apikey
 
 Uses models/gemini-2.0-flash at endpoint:
 
-bash
-Copy
-Edit
+```bash
+
 https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
 🧠 Example Rating Output
 Feedback AI Rating Emoji
 "It’s so slow and unhelpful." 1.0 😡
 "Decent but needs polish." 3.0 😐
 "Absolutely loved it!" 5.0 😍
+```
 
-📌 Future Improvements
+## 📌 Future Improvements
+
 Store feedback in MongoDB or Firebase
 
 Admin dashboard to analyze trends
@@ -101,5 +100,6 @@ Star rating animation
 
 PDF/CSV feedback export
 
-💡 License
+## 💡 License
+
 MIT License. Free to use, fork, and contribute!
