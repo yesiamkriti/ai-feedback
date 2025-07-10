@@ -3,7 +3,8 @@ A full-stack application that allows users to submit feedback and receive an AI-
 
 <!-- Optional: replace with real screenshot -->
 
-🚀 Features
+## 🚀 Features
+
 🌐 React + Node.js full-stack app
 
 🤖 Uses Gemini AI (Free via MakerSuite)
@@ -14,14 +15,14 @@ A full-stack application that allows users to submit feedback and receive an AI-
 
 🎨 Clean UI with responsive design
 
-🧰 Tech Stack
-Frontend	Backend	AI	Optional
-React	Node.js + Express	Gemini API (v1beta)	Axios, dotenv
+## 🧰 Tech Stack
 
-📦 Folder Structure
-bash
-Copy
-Edit
+Frontend Backend AI Optional
+React Node.js + Express Gemini API (v1beta) Axios, dotenv
+
+## 📦 Folder Structure
+
+```bash
 ai-feedback-app/
 ├── client/          # React frontend
 │   ├── src/
@@ -34,34 +35,35 @@ ai-feedback-app/
 │   └── index.js
 ├── .env             # Gemini API Key
 └── README.md
-⚙️ Setup Instructions
+```
+
+## ⚙️ Setup Instructions
+
 1. Clone the Repository
-bash
-Copy
-Edit
+
 git clone https://github.com/your-username/ai-feedback-app.git
-cd ai-feedback-app
-2. Setup Backend (Node.js)
-bash
-Copy
-Edit
+cd ai-feedback-app 2. Setup Backend (Node.js)
+
+```bash
 cd server
 npm install
 Create a .env file:
+```
 
-env
-Copy
-Edit
+```bash
 GEMINI_API_KEY=your_google_makersuite_api_key_here
+```
+
 Start the server:
 
 bash
 Copy
 Edit
 node index.js
+
 # or
-npx nodemon index.js
-3. Setup Frontend (React)
+
+npx nodemon index.js 3. Setup Frontend (React)
 bash
 Copy
 Edit
@@ -85,10 +87,10 @@ Copy
 Edit
 https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
 🧠 Example Rating Output
-Feedback	AI Rating	Emoji
-"It’s so slow and unhelpful."	1.0	😡
-"Decent but needs polish."	3.0	😐
-"Absolutely loved it!"	5.0	😍
+Feedback AI Rating Emoji
+"It’s so slow and unhelpful." 1.0 😡
+"Decent but needs polish." 3.0 😐
+"Absolutely loved it!" 5.0 😍
 
 📌 Future Improvements
 Store feedback in MongoDB or Firebase
@@ -101,4 +103,3 @@ PDF/CSV feedback export
 
 💡 License
 MIT License. Free to use, fork, and contribute!
-
